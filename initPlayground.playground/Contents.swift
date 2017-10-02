@@ -32,14 +32,13 @@ public class OtherClass
         
     }
     public init(favoriteNumber :Int, favoriteWord :String)
-{
-    
+    {
     self.favoriteNumber = favoriteNumber
     self.favoriteWord = favoriteWord
     }
     public func getFavoriteWord() -> String
     {
-        
+        return favoriteWord
     }
     
     public func changeInternalState() -> Void
@@ -49,7 +48,7 @@ public class OtherClass
     }
 }
 var secondClass = OtherClass()
-var thirdSample = OtherClass(favoriteNumber: 867543, favoriteWord: "stuff"))
+var thirdSample = OtherClass(favoriteNumber: 867543, favoriteWord: "stuff")
 secondClass.changeInternalState()
 thirdSample.changeInternalState
 thirdSample.changeInternalState
