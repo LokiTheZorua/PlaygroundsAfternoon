@@ -12,4 +12,41 @@ public class SimpleClass
     {
         name = "My name is....."
     }
+    
+    public func getName() -> String
+    {
+        return name
+    }
 }
+var sample = SimpleClass()
+print(sample.getName())
+
+public class OtherClass
+{
+    private var favoriteNumber :Int
+    private var favoriteWord: String
+    public init()
+    {
+        favoriteNumber = Int()
+        favoriteWord = String()
+        
+    }
+    public init(favoriteNumber :Int, favoriteWord :String)
+{
+    
+    self.favoriteNumber = favoriteNumber
+    self.favoriteWord = favoriteWord
+    }
+    
+    public func changeInternalState() -> Void
+    {
+        self.favoriteNumber *= 1238
+        self.favoriteWord += "And one more"
+    }
+}
+var secondClass = OtherClass()
+var third sample + OtherClass(favoriteNumber: 867543, favoriteWord: "stuff")
+thirdSample.
+secondClass.changeInternalState()
+
+
